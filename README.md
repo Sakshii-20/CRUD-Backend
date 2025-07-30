@@ -33,15 +33,15 @@ Installation
 
 1. Clone the repository:
 
-https://github.com/Sakshii-20/CRUD-Backend.git
+``` bash https://github.com/Sakshii-20/CRUD-Backend.git```
 
 2. Navigate to the project folder:
 
-cd CRUD-Backend
+``` bash cd CRUD-Backend```
 
 3. Install dependencies:
 
-npm install
+```bash npm install```
 
 
 ---
@@ -50,8 +50,8 @@ Setup Environment Variables
 
 Create a file named .env in the root folder and add:
 
-PORT=3000
-MONGODB_URI=your_mongodb_connection_string
+```bash PORT=3000
+MONGODB_URI=your_mongodb_connection_string```
 
 Replace your_mongodb_connection_string with your actual MongoDB connection string.
 
@@ -60,11 +60,11 @@ Replace your_mongodb_connection_string with your actual MongoDB connection strin
 
 Run the Project
 
-npm run dev
+```bash npm run dev```
 
 This will start the server at:
 
-http://localhost:3000
+```bash http://localhost:3000```
 
 
 ---
